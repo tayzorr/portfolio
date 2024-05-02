@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+body{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-size: 3em;
+    color: rgb(0, 58, 194);
+    font-weight: bold;
+}
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid #000000;
+    padding: 10px;
+    background-color: #f8ffac;
+}
+
+footer .wrapper{
+    text-align: left;
+    max-width: 1000px;
+    padding: 10px;
+    
+}
+
+/*Link Decoration*/
+a:link{
+    color: purple;
+    }
+    a:visited{
+    color: purple;
+    }
+    a:hover{
+    color: blue;
+    }
+    a:active{
+    color: black;
+    }
+    
+
+/* Navigation Bar */
+nav {
+    background-color: #fbf021;
+    border-top: 2px darkblue solid;
+    border-bottom: 2px darkblue solid;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:link{
+    color: black;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: grey;
+}
+nav a:active{
+    color: lightgrey;
+}
+
+.fa {
+    font-size: 2em;
+    color: #b57300;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+header{
+    background-color: #f8ffac;
+    padding: 5px;
+}
+header h1{
+    margin: 0 auto;
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	height: auto;
+}
+
+blockquote{
+    background-color: #eeffab;
+    padding: 30px;
+}
+
+.body-icon{
+    font-size: 5em;
+    padding-left: 1em;
+    color: #b57300;
+    text-align: center;
+}
+
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+.pic-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+    font-size: 1.8em;
+}
+}
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 1.5em;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+}
+
+
+/* Media queries for mobile */
+@media only screen and (max-width:768px){
+    .hero-image{
+        display:none;
+    }
+}

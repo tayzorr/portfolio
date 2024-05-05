@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Happy Aung::Photography</title>
+        <meta name="description" content="Behold the amazing photography by Happy Aung.">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap Stylesheet-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">          
+    </head>
+
+    <body>
+        <!--Header logo and text-->
+        <header>
+            <img src="images/logo.png" alt="logo" class="img-fluid logo">
+            <p>Happy, the web designer</p>
+        </header>
+
+        <!--Navigation Bar-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="webdev.html">Web Developemnt</a></li>
+                <li><a href="photography.html">Photography</a></li>
+            </ul>
+        </nav>
+
+        <div id="home-hero">
+            <h1></h1>
+        </div>
+
+        <main class="projects">
+            <div class="container-fluid">
+
+                <!--Gallary Description-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Photography and Cameras</h2>
+                        <p> I have been in the video industry for about 6 years and I have been the video editor for Facebook videos. I also did some motion graphics for the companies and commercials. But currently, I just got myself into photography. Coming from a video background, photophaphy is such a refreshing area to work on. Here are some of my shots.</p>
+                    </div>
+                </div>
+                
+                <!--Gallary with Javascript-->
+                <div class="row">
+                    <div class="gallery">
+                        <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+                            <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/gallery1.png" alt="The Wait" />
+                            <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/gallery2.png" alt="church"  />
+                            <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/gallery3.png" alt="capture" />
+                            <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/gallery4.png" alt="youth" />
+                            <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/gallery5.png" alt="rain"  />
+                            <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/gallery6.png" alt="rear view" />
+                            <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/gallery7.png" alt="factory" />
+                        </div>
+                        <div class="preview">
+                            <img id="preview" src="images/gallery1.png" style="display:block;margin:0 auto;" alt=""  height="600" width="600"/>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Youtube Short Section-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>My YouTube Channel</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>This is my YouTube that I am trying to run for a while now. There is not much uploaded but I have been crafting something more for this coming holidays. Thre will be more contents about cameras, technologies and the film critics, including some breakdown of the visual of the films. There will even be my own short films uploaded to the channel and the breakdown of how it shot it. I would be so hornered if you guys subscribe to my channel. </p>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u2df8XPh6Ao?si=lC9VeQ_jji9WZtdT"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Youtube Short Section-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>My YouTube Short</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <iframe width="300" height="540" src="https://www.youtube.com/embed/MzJsuD8aXlY"></iframe>
+                    </div>
+                    <div class="col-sm-4">
+                        <iframe width="300" height="540" src="https://www.youtube.com/embed/KgU6XGRcZoo"></iframe>
+                    </div>
+                    <div class="col-sm-4">
+                        <iframe width="300" height="540" src="https://www.youtube.com/embed/WvMu0oYAX3s"></iframe>
+                    </div>
+
+                  
+                </div>
+
+                
+            </div>
+
+            
+
+        </main>
+
+         <!--jQuery, Popper, and Bootstrap Javascript files-->
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <footer>
+            <div class="container-fluid wrapper">
+
+                <div class="row">
+                    <!--Footer About Section-->
+                    <div class="col-sm-6">
+                        <h3>Happy Aung</h3>
+                        <p>Happy Aung is a web designer and developer, currently studying in Saint Paul College for the Computer Graphics and Visualization major. He is also a filmmaker and video grapher hobbist.</p>
+                    </div>
+
+                    <!--Footer Pages Section-->
+                    <div class="col-sm-3">
+                        <div class="row"><h3>Pages</h3></div>
+                        <div class="row"><a href="index.html">Home</a></div>
+                        <div class="row"><a href="resume.html">Resume</a></div>
+                        <div class="row"><a href="webdev.html">Web Development</a></div>
+                        <div class="row"><a href="photography.html">Photography</a></div>
+                    </div>
+                            
+                    <!--Footer Social Section-->
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <h3>Connect with Me</h3>
+                        </div>
+
+                        <div class="row">
+                            <a href="https://www.instagram.com/welcome_tohappy/">
+                                <i class="fa fa-instagram" aria-hidden="true">Instagram</i>
+                            </a>
+                        </div>
+
+                        <div class="row">
+                            <a href="https://www.facebook.com/tz.tayzar">
+                                <i class="fa fa-facebook-official" aria-hidden="true">Facebook</i>
+                            </a>
+                        </div>
+
+                        <div class="row">
+                            <a href="https://www.youtube.com/channel/UCkoCsnYMAH4vROBpHxlmEkg">
+                                <i class="fa fa-youtube-play" aria-hidden="true">Youtube</i>
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <small>Created for Web Fundamental Class by Happy Aung. Images are my personal properties. All rights reserved.</small>
+
+        </footer>
+    </div>
+</body>
+</html>

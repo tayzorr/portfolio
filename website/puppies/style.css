@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+body{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 3em;
+    color: green;
+}
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px;
+    background-color: #b8ffb8;
+}
+
+/*Link Decoration*/
+a:link{
+    color: purple;
+    }
+    a:visited{
+    color: purple;
+    }
+    a:hover{
+    color: blue;
+    }
+    a:active{
+    color: black;
+    }
+    
+
+/* Navigation Bar */
+nav {
+    background-color: #b8ffb8;
+    border-top: 2px darkblue solid;
+    border-bottom: 2px darkblue solid;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:link{
+    color: black;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: grey;
+}
+nav a:active{
+    color: lightgrey;
+}
+
+.fa {
+    font-size: 3em;
+    color: navy;
+}
+
+header{
+    background-color: #042837;
+    padding: 5px;
+}
+header h1{
+    margin: 0 auto;
+}
+
+.home-hero{
+    background-image: url(images/header.jpg);
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    color: #042837;
+    padding: 10px 10px 10px 30px;
+}
+
+blockquote{
+    background-color: #e9ffe9;
+    border-left: 10px solid green;
+    padding: 30px;
+}
+
+.pic-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+    font-size: 1.8em;
+}
+}
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 1.5em;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+}
+
+
+/* Media queries for mobile */
+@media only screen and (max-width:768px){
+    .hero-image{
+        display:none;
+    }
+}

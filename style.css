@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+/*Text style start*/
+header{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: Black;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+body{
+    font-family: 'Nanum Myeongjo', serif;
+    color: black;
+    margin: 0;
+}
+h1, h2{
+    font-family: 'Inter', sans-serif;
+    color: Black;
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+/*Link Decoration*/
+a:link{
+    color: white;
+    }
+    a:visited{
+    color: lightgray;
+    }
+    a:hover{
+    color: yellow;
+    }
+    a:active{
+    color: grey;
+}
+.fa {
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Text style Ends*/
+
+
+
+
+
+/* Navigation Bar Style starts*/
+nav {
+    background-color: black;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:link{
+    color: white;
+}
+nav a:visited{
+    color: lightgrey;
+}
+nav a:hover{
+    color: yellow;
+}
+nav a:active{
+    color: grey;
+}
+/* Navigation Bar Style Ends*/
+
+
+
+
+
+/*Space padding and margins start*/
+main{
+    max-width: 90%;
+    margin: 20px auto;
+}
+.top-bot-spacer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.home-hero{
+    background-image: url(images/home-hero.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+}
+.home-hero h1{
+    background-color: yellow;
+}
+.projects{
+    max-width: 900px;
+    margin: 20px auto;
+}
+.resume{
+    margin: 20px auto;
+    max-width: 900px;
+    border: solid 1px black;
+    padding: 50px;
+}
+/*Space padding and margins start*/
+
+
+
+
+
+/*Footer Style Starts*/
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+footer .wrapper{
+    text-align: left;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+footer a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+footer a:link{
+    color: white;
+}
+footer a:visited{
+    color: lightgrey;
+}
+footer a:hover{
+    color: yellow;
+}
+footer a:active{
+    color: grey;
+}
+
+footer .fa {
+    font-size: 1.3em;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+/*Footer Style Ends*/
+
+    
+
+
+
+
+/*The Gallary CSS Starts*/
+.gallery {
+    margin: 0 auto;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 100px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/*Gallery CSS Ends*/
+
+
+
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+    font-size: 1.8em;
+}
+}
+
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 1.5em;
+}
+}
+
+
+/* Media queries for mobile */
+@media only screen and (max-width:768px){
+    .hero-image{
+        display:none;
+    }
+}
